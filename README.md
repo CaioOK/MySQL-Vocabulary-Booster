@@ -8,10 +8,14 @@
 <br/>
 <br/>
 
-# ℹ️ Sobre o projeto
+## ℹ️ Sobre o projeto
 Este foi um projeto do módulo de Back-End da Trybe, onde foi colocado em prática através de desafios conhecimentos da linguagem SQL e do Sistema de Gerenciamento de Banco de Dados(SGBD) MySQL. A seguir há uma lista das habilidades praticadas neste projeto:
 
+<br />
+
 ---
+
+<br />
 
 ## Habilidades
 
@@ -87,33 +91,15 @@ Para poder realizar os desafios deste projeto é necessário ter o MySQL instala
 
 11. Caso haja tabelas faltando, delete o banco de dados clicando com o botão direito em cima do banco de dados `hr` e selecione a opção `Drop Schema...`. Refaça o passo anterior, desta vez aguardando um tempo maior quando executar o script de restauração.
 
----
-
-## Implementações técnicas
-
-Para executar localmente os testes, é preciso escrever o seguinte no seu terminal:
-```sh
-MYSQL_USER=<SEU_NOME_DE_PESSOA_USUARIA> MYSQL_PASSWORD=<SUA SENHA> HOSTNAME=<NOME_DO_HOST> npm test
-```
-
-Ou seja, suponha que para poder acessar a base de dados feita neste projeto você tenha `root` como seu nome de pessoa usuária, `password` como senha e `localhost` como host. Logo, você executaria:
-```sh
-MYSQL_USER=root MYSQL_PASSWORD=password HOSTNAME=localhost npm test
-```
-
-Usando o exemplo anterior de base, suponha que você não tenha setado uma senha para `root`. Neste caso, você executaria:
-```sh
-MYSQL_USER=root MYSQL_PASSWORD= HOSTNAME=localhost npm test
-```
----
-
-:warning: **Não é necessário colocar** `USE NAMEDATABASE;` ou `SET SQL_SAFE_UPDATES = 0;` no início dos seus arquivos :warning:
+<br />
 
 ---
 
-# Requisitos do projeto
+<br />
 
-## 1 - Exiba os países e indicando se cada um deles se encontra ou não na região formada pela Europa
+## 📝 Requisitos do projeto
+
+### 1 - Exiba os países e indicando se cada um deles se encontra ou não na região formada pela Europa
 
 Crie uma query que mostre se o país pertence ou não à região `"Europe"`.
 
@@ -129,7 +115,7 @@ Os resultados devem estar ordenados pelo nome do país em ordem alfabética.
 
 ---
 
-## 2 - Exiba os cargos com seu nível de renumeração associado, com base no salário máximo do cargo
+### 2 - Exiba os cargos com seu nível de renumeração associado, com base no salário máximo do cargo
 
 Categorize o nível de remuneração de cada cargo.
 
@@ -153,7 +139,7 @@ Os resultados devem estar ordenados pelo nome do cargo em ordem alfabética.
 
 ---
 
-## 3 - Exiba os cargos com a diferença entre seus salários máximo e mínimo
+### 3 - Exiba os cargos com a diferença entre seus salários máximo e mínimo
 
 Crie uma query que exiba 02 colunas:
 
@@ -169,7 +155,7 @@ Em caso de empate nessa diferença os resultados devem ser ordenados pelo nome d
 
 ---
 
-## 4 - Exiba a média salarial e o nível de senioridade de todas as pessoas empregadas, agrupadas pelo cargo
+### 4 - Exiba a média salarial e o nível de senioridade de todas as pessoas empregadas, agrupadas pelo cargo
 
 Obtenha informações a respeito **dos salários das pessoas empregadas**.
 
@@ -199,7 +185,7 @@ Em caso de empate na média, os resultados devem ser ordenados pelo nome do carg
 
 ---
 
-## 5 - Exiba os cargos com sua variação salarial e suas médias máxima e mínima mensal, considerando salários máximo e minímo como anuais
+### 5 - Exiba os cargos com sua variação salarial e suas médias máxima e mínima mensal, considerando salários máximo e minímo como anuais
 
 ⚠️ Considere os salários máximo e mínimo de um cargo como salários anuais. ⚠️
 
@@ -221,7 +207,7 @@ Em caso de empate na variação, os resultados devem ser ordenados pelo nome do 
 
 ---
 
-## 6 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas
+### 6 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas
 
 Faça um relatório que mostra o **histórico de cargos das pessoas empregadas**. 
 
@@ -243,7 +229,7 @@ Em caso de empate no nome completo, ordene os resultados pelo nome do cargo em o
 
 ---
 
-## 7 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas que iniciaram seus cargos nos meses de janeiro, fevereiro ou março
+### 7 - Faça um relatório que mostra o histórico de cargos das pessoas empregadas que iniciaram seus cargos nos meses de janeiro, fevereiro ou março
 
 Faça um relatório que mostre o **histórico de cargos das pessoas empregadas** que iniciaram seus cargos nos meses de janeiro, fevereiro ou março.
 
@@ -263,7 +249,7 @@ Em caso de empate no nome completo, ordene os resultados pela data de início qu
 
 ---
 
-## 8 - Exibe todas as **pessoas consumidoras** cujos pedidos já foram enviados pelas empresas `"Speedy Express"` ou `"United Package"`
+### 8 - Exibe todas as **pessoas consumidoras** cujos pedidos já foram enviados pelas empresas `"Speedy Express"` ou `"United Package"`
 
 Exiba todas as **pessoas consumidoras** cujos pedidos já foram enviados pelas empresas `"Speedy Express"` ou `"United Package"`.
 
@@ -285,7 +271,7 @@ Se houver empresas com o mesmo nome, ordene os resultados pela data do pedido em
 
 ---
 
-## 9 - Exibe todos as pessoas funcionárias que já realizaram algum pedido, mostrando também seu total de pedidos feitos
+### 9 - Exibe todos as pessoas funcionárias que já realizaram algum pedido, mostrando também seu total de pedidos feitos
 
 Exiba todas as pessoas funcionárias que já realizaram algum pedido e o total dos pedidos feitos.
 
@@ -301,7 +287,7 @@ Ordene seus resultados pelo total de pedidos em ordem crescente.
 
 ---
 
-## 10 - Exibe todos os produtos que já foram pedidos, que possuem uma média de quantidade nos pedidos registrados acima de `20.00`
+### 10 - Exibe todos os produtos que já foram pedidos, que possuem uma média de quantidade nos pedidos registrados acima de `20.00`
 
 Exiba todos os produtos que já foram pedidos e que possuem uma média de quantidade nos pedidos registrados acima de `20.00`.
 
@@ -323,7 +309,7 @@ Em caso de empate na média, os resultados devem ser ordenados pelo nome do prod
 
 ---
 
-## 11 - Exibe todas as pessoas clientes **que possuem compatriotas**, mostrando a quantidade de compatriotas para cada pessoa cliente
+### 11 - Exibe todas as pessoas clientes **que possuem compatriotas**, mostrando a quantidade de compatriotas para cada pessoa cliente
 
 Exiba todas as pessoas clientes **que possuem compatriotas**.
 
@@ -355,7 +341,7 @@ Os resultados devem estar ordenados pelo nome de contato da pessoa cliente em or
 
 ---
 
-## 12 - Faça um relatório que lista todas as pessoas funcionárias **que possuem o mesmo cargo**
+### 12 - Faça um relatório que lista todas as pessoas funcionárias **que possuem o mesmo cargo**
 
 Faça um relatório que lista todas as pessoas funcionárias **que possuem o mesmo cargo**.
 
@@ -389,7 +375,7 @@ Em caso de empate, os resultados devem ser ordenados pela coluna **Nome completo
 
 ---
 
-## 13 - Exibe todos produtos **que já tiveram um pedido associado requerindo uma quantidade desse produto maior que 80**
+### 13 - Exibe todos produtos **que já tiveram um pedido associado requerindo uma quantidade desse produto maior que 80**
 
 Exiba todos os produtos **que já tiveram um pedido associado requerindo uma quantidade desse produto maior que 80**. 
 
@@ -405,7 +391,7 @@ Os resultados devem estar ordenados pelo nome do produto em ordem alfabética.
 
 ---
 
-## 14 - Considerando o conjunto formado pelas pessoas consumidoras e empresas fornecedoras de produtos, queremos saber quais são os cinco primeiros países distintos, em ordem alfabética, presentes nesse conjunto
+### 14 - Considerando o conjunto formado pelas pessoas consumidoras e empresas fornecedoras de produtos, queremos saber quais são os cinco primeiros países distintos, em ordem alfabética, presentes nesse conjunto
 
 Exiba os 05 primeiros países distintos dentre as pessoas consumidoras e as empresas fornecedoras, em ordem alfabética.
 
@@ -415,7 +401,7 @@ Monte uma query que exiba 01 coluna com o alias "**País**" contendo o nome do p
 
 ---
 
-## 15 - Crie uma procedure chamada `buscar_media_por_cargo` que recebe como parâmetro o nome de um cargo e em retorno deve mostrar a média salarial de todas as pessoas que possuem esse cargo
+### 15 - Crie uma procedure chamada `buscar_media_por_cargo` que recebe como parâmetro o nome de um cargo e em retorno deve mostrar a média salarial de todas as pessoas que possuem esse cargo
 
 Crie uma procedure chamada `buscar_media_por_cargo` que recebe como parâmetro o nome de um cargo e em retorno deve mostrar a média salarial de todas as pessoas que possuem esse cargo.
 
@@ -431,7 +417,7 @@ Chamando-a dessa forma, sua procedure deve retornar `5760.00` como média salari
 
 ---
 
-## 16 - Crie uma função chamada `buscar_quantidade_de_empregos_por_funcionario` no banco de dados `hr` que, ao receber o **email de uma pessoa funcionária**, retorne a quantidade de empregos **presentes em seu histórico**
+### 16 - Crie uma função chamada `buscar_quantidade_de_empregos_por_funcionario` no banco de dados `hr` que, ao receber o **email de uma pessoa funcionária**, retorne a quantidade de empregos **presentes em seu histórico**
 
 Crie uma função chamada `buscar_quantidade_de_empregos_por_funcionario` que, ao receber o **email de uma pessoa funcionária**, retorne a quantidade de empregos **presentes em seu histórico**.
 
@@ -441,7 +427,7 @@ Confirme que sua função retorna o valor `2` ao ser chamada passando uma pessoa
 
 ---
 
-## 17 - Crie uma TRIGGER que, a cada nova inserção realizada na tabela `orders`, insira automaticamente a data atual na coluna `OrderDate`
+### 17 - Crie uma TRIGGER que, a cada nova inserção realizada na tabela `orders`, insira automaticamente a data atual na coluna `OrderDate`
 
 Crie uma TRIGGER que, a cada nova inserção realizada na tabela `orders`, insira automaticamente a data atual na coluna `OrderDate`.
 
