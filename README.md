@@ -17,7 +17,7 @@ Este foi um projeto do módulo de Back-End da Trybe, onde foi colocado em práti
 
 <br />
 
-## Habilidades
+## 🏋️‍♂️ Habilidades
 
   * Criar condicionais no **SQL** usando **IF** e **CASE**
 
